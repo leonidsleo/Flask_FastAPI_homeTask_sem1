@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style_sem1home.css">
+    <title>
+        {% block title %}
+            Мойсайт
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <header>
+        <div class="header_conteiner">
+            <a href="/одежда/">Одежда</a>
+            <a href="/обувь/">Обувь</a>
+            <a href="/куртки/">Куртки</a>
+        </div>
+    </header>
+    <div>
+        {% block content %}
+            Страница не заполнена
+        {%  endblock %}
+    </div>
+    <footer>
+        <div class="footer_conteiner">
+            <a href="https://vk.com/">
+                <img src="../static/img/VK.svg" alt="В контакте" width="60px" height="60px">
+            </a>
+            <a href="https://www.whatsapp.com/">
+                <img src="../static/img/whatsapp.svg" alt="Ватцап" width="60px" height="60px">
+            </a>
+            <h5>Телефон: +7 900 000 00 00</h5>
+        </div>
+    </footer>
+</body>
+</html>
